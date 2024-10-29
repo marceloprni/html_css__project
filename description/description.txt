@@ -1,0 +1,26 @@
+git init
+git status
+git add .
+git commit -m "message here"
+git log 
+
+git rm --cache index.html - tirar o arquivo da stage area 
+
+git commit -m "atualizado index"
+
+git restore index.html
+
+git log - verifica todos os commits
+
+**** mudar o commit ****
+
+git checkout "numero do log"
+git checkout main - voltar para main
+
+
+recuperar arquivo
+
+git checkout "numero do log" -- "nome do arquivo"
+
+git pull - chama todos os arquivos
+git push - joga todos os arquivos para o 
